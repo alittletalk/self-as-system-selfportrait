@@ -1,0 +1,312 @@
+body{
+    background-color: rgb(0, 0, 0);
+    line-height: 100px;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Nova+Round&display=swap);
+button{
+  font-family: 'Nova Round', cursive;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 10;
+  background-color: #000000; 
+  color: rgb(255, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: #f40101;
+  color: rgb(255, 255, 255);
+}
+
+
+p1{
+    position:absolute;
+}
+
+
+article {
+    font-weight: 100px;
+    font-size: 200px;
+    max-width: 1500px;
+    overflow: hidden;
+    position: relative;
+    min-height: 4em;
+    margin-top:-350px
+ 
+  }
+  
+  .example-left {
+    font-family: 'ZCOOL XiaoWei', serif;
+    white-space: nowrap;
+    position: absolute;
+    text-transform: uppercase;
+    color: yellow;
+    font-weight: 100px;
+    bottom:2em;
+  }
+  
+  .example-left {
+    -webkit-animation: mymove 3s linear infinite; /* Safari 4.0 - 8.0 */
+    white-space: nowrap;
+    animation: mymove 5s linear infinite alternate;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes mymove {
+    from {
+      left: 0;
+    }
+    to {
+      left: -140px;
+    }
+  }
+  
+  @keyframes mymove {
+    from {
+      left: 1500px;
+    }
+    to {
+      left: -600px;
+    }
+  }
+  
+  
+  .example-right {
+    font-family: 'Share Tech Mono', monospace;
+    white-space: nowrap;
+    position: absolute;
+    top:1em;
+    color:rgb(0, 208, 255);
+    font-weight: 150px;
+  }
+  
+  .example-right {
+    -webkit-animation: urmove 3s linear infinite; /* Safari 4.0 - 8.0 */
+    white-space: nowrap;
+    animation: urmove 5s linear infinite alternate;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes urmove {
+    from {
+      right: 0px;
+    }
+    to {
+      right: -140px;
+    }
+  }
+  
+  @keyframes urmove {
+    from {
+      right: 1500px;
+    }
+    to {
+      right: -2000px;
+    }
+  }
+  
+  .example-right-a {
+    font-family: 'Share Tech Mono', monospace;
+    white-space: nowrap;
+    position: absolute;
+    top:1em;
+    color:yellow;
+    font-weight: 150px;
+    background: transparent;
+  }
+  
+  .example-right-a {
+    -webkit-animation: urmove 7s linear infinite; /* Safari 4.0 - 8.0 */
+    white-space: nowrap;
+    animation: thrmove s linear infinite alternate;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes thrmove {
+    from {
+      right: 0px;
+    }
+    to {
+      right: -140px;
+    }
+  }
+  
+  @keyframes thmove {
+    from {
+      right: 1500px;
+    }
+    to {
+      right: -2000px;
+    }
+  }
+
+  .example-left-c {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 100px;
+    white-space: nowrap;
+    position: absolute;
+    margin-bottom: 350px;
+    text-transform: uppercase;
+    color: rgb(215, 26, 26);
+    font-weight: 100px;
+    bottom:2em;
+  }
+  
+  .example-left-c {
+    -webkit-animation: mymove 5s linear infinite; /* Safari 4.0 - 8.0 */
+    white-space: nowrap;
+    animation: mymove 2s linear infinite alternate;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes mymove {
+    from {
+      left: 0;
+    }
+    to {
+      left: -140px;
+    }
+  }
+  
+  @keyframes mymove {
+    from {
+      left: 1500px;
+    }
+    to {
+      left: -600px;
+    }
+  }
+  
+  
+  .example-right-d {
+    font-family: 'Share Tech Mono', monospace;
+    white-space: nowrap;
+    position: absolute;
+    top:1em;
+    color:rgb(31, 233, 68);
+    font-size: 150px;
+    font-weight: 150px;
+
+    background: transparent;
+  }
+  
+  .example-right-d {
+    -webkit-animation: urmove 6s linear infinite; /* Safari 4.0 - 8.0 */
+    white-space: nowrap;
+    animation: thrmove s linear infinite alternate;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes thrmove {
+    from {
+      right: 0px;
+    }
+    to {
+      right: -140px;
+    }
+  }
+  
+  @keyframes thmove {
+    from {
+      right: 1500px;
+    }
+    to {
+      right: -2000px;
+    }
+  }
+  .example-left-e {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 200px; 
+    white-space: nowrap;
+    position: absolute;
+    margin-bottom: -250px;
+    text-transform: uppercase;
+    color: yellow;
+    font-weight: 100px;
+    bottom:2em;
+  }
+  
+  .example-left-e {
+    -webkit-animation: mymove 3s linear infinite; /* Safari 4.0 - 8.0 */
+    white-space: nowrap;
+    animation: mymove 2s linear infinite alternate;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes mymove {
+    from {
+      left: 0;
+    }
+    to {
+      left: -140px;
+    }
+  }
+  
+  @keyframes mymove {
+    from {
+      left: 1500px;
+    }
+    to {
+      left: -600px;
+    }
+  }
+
+
+
+.a{
+
+color:aliceblue;
+font-size: 15px;
+}
+
+.b{
+    color:darkred;
+    font-size: 20px;
+    top:55%;  
+}
+
+.c{
+    color:rgb(137, 184, 249);
+    font-size: 20px;
+    top:55%; 
+    left:50%
+}
+.d{
+    color:black;
+    font-size: 40px;
+    top:110%; 
+    left:10%
+}
+
+.e{
+    font-size: 200px;
+    left:80%
+
+}
+
+
+.redhair img{
+    margin-top: 200px;
+    margin-left: 900px;
+    width: 350px;
+    height: 450px;
+    }
+
+img{
+
+      position: absolute;
+      margin-top: 420px;
+      margin-left: 300px;
+      
+    
+        }
+
